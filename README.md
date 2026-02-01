@@ -40,10 +40,9 @@ cd flask-app
   
 
 ## 3. Start Web Server
-
-Start web server
+````
 ```bash
-docker run -d -p 5000:5000 --name flask_container flask-dev
+ docker run -d -p 5000:5000 --name flask_container flask-dev
 ```
 
 ## 4. Test
