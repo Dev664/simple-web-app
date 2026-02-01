@@ -33,8 +33,11 @@ pip3 install flask
 
 - Copy `app.py` or download it from a source repository
 - Configure database credentials and parameters
-  mkdir flask-app 
-  cd flask-app 
+  ```bash
+mkdir flask-app 
+cd flask-app 
+```
+  
 
 ## 3. Start Web Server
 
