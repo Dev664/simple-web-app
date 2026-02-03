@@ -32,7 +32,6 @@ pip3 install flask
 ```
 
 - Copy `app.py` or download it from a source repository
-- Configure database credentials and parameters
   ```bash
 mkdir flask-app 
 cd flask-app 
