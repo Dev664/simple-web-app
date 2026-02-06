@@ -56,8 +56,8 @@ http://<EC2 pub IP>:5000
 http://<IP>:5000/how%20are%20you            
 ```
 
-Part 2
-containerize the previously created small web flask application and run it from container . Access it from browser .
+#Part 2
+#containerize the previously created small web flask application and run it from container . Access it from browser .
 
 ##login as root [sudo su - ] Install Docker on EC2 
 ````
