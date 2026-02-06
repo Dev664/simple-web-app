@@ -19,7 +19,7 @@ Create a small web flask application and run it directly from EC2 instance . Acc
   - **Install and Configure Web Server**
   - **Start Web Server**
    
-##1. Install all required dependencies
+## 1. Install all required dependencies
   
   Python and its dependencies
   ```bash
@@ -56,10 +56,10 @@ http://<EC2 pub IP>:5000
 http://<IP>:5000/how%20are%20you            
 ```
 
-#Part 2
-#containerize the previously created small web flask application and run it from container . Access it from browser .
+# Part 2
+# containerize the previously created small web flask application and run it from container . Access it from browser .
 
-##login as root [sudo su - ] Install Docker on EC2 
+## login as root [sudo su - ] Install Docker on EC2 
 ````
 Install Docker on EC2 
 
@@ -75,22 +75,22 @@ newgrp docker
 
 docker --version
 ````
-##Create requirements.txt in current directory i.e /root 
+## Create requirements.txt in current directory i.e /root 
 ```
 vi requirements.txt 
 Flask
 ```
-##Create app.py in /root with github code app.py
+## Create app.py in /root with github code app.py
 ```
 ```
-##Create Dockerfile in /root  from github Dockerfile 
+## Create Dockerfile in /root  from github Dockerfile 
 ```
 ```
-##Build Image 
+## Build Image 
 ```
 docker build -t flask-dev .
 ```
-##Run Container 
+## Run Container 
 ```
 docker run -d -p 5000:5000 --name flask_container flask-dev
 ```
