@@ -48,7 +48,7 @@ pip3 install flask
  python3 app.py
 ```
 
-## 5. Start Web Server
+## 5. Start Web Server.
 
 Open a browser and go to URL
 ```
