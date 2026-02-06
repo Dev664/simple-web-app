@@ -86,6 +86,7 @@ https://github.com/Dev664/simple-web-app/blob/master/app.py
 ```
 ## 4.Create Dockerfile in /root  from github Dockerfile 
 ```
+https://github.com/Dev664/simple-web-app/blob/master/Dockerfile
 ```
 ## 5.Build Image 
 ```
