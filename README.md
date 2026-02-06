@@ -59,7 +59,7 @@ http://<IP>:5000/how%20are%20you
 # Part 2
 # containerize the previously created small web flask application and run it from container . Access it from browser .
 
-## login as root [sudo su - ] Install Docker on EC2 
+## 1.login as root [sudo su - ] Install Docker on EC2 
 ````
 Install Docker on EC2 
 
@@ -75,22 +75,22 @@ newgrp docker
 
 docker --version
 ````
-## Create requirements.txt in current directory i.e /root 
+## 2.Create requirements.txt in current directory i.e /root 
 ```
 vi requirements.txt 
 Flask
 ```
-## Create app.py in /root with github code app.py
+## 3.Create app.py in /root with github code app.py
 ```
 ```
-## Create Dockerfile in /root  from github Dockerfile 
+## 4.Create Dockerfile in /root  from github Dockerfile 
 ```
 ```
-## Build Image 
+## 5.Build Image 
 ```
 docker build -t flask-dev .
 ```
-## Run Container 
+## 6.Run Container 
 ```
 docker run -d -p 5000:5000 --name flask_container flask-dev
 ```
